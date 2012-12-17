@@ -14,18 +14,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		433A8F88167EEA8A0071B6F5 /* PBXContainerItemProxy */ = {
+		434DEB5C167EF4B400470F49 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 433A8F81167EEA8A0071B6F5 /* MKNetworkKit-iOS.xcodeproj */;
+			containerPortal = 434DEB55167EF4B400470F49 /* MKNetworkKit-iOS.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = ABB5C25C148B3AE00056D3E9;
-			remoteInfo = "MKNetworkKit-iOS";
-		};
-		433A8F8B167EEB030071B6F5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 433A8F81167EEA8A0071B6F5 /* MKNetworkKit-iOS.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = ABB5C25B148B3AE00056D3E9;
 			remoteInfo = "MKNetworkKit-iOS";
 		};
 /* End PBXContainerItemProxy section */
@@ -49,9 +42,9 @@
 		433A8F72167EE9E00071B6F5 /* RSOAuthEngineLib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RSOAuthEngineLib-Prefix.pch"; sourceTree = "<group>"; };
 		433A8F73167EE9E00071B6F5 /* RSOAuthEngineLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSOAuthEngineLib.h; sourceTree = "<group>"; };
 		433A8F75167EE9E00071B6F5 /* RSOAuthEngineLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSOAuthEngineLib.m; sourceTree = "<group>"; };
-		433A8F81167EEA8A0071B6F5 /* MKNetworkKit-iOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "MKNetworkKit-iOS.xcodeproj"; path = "ExternalFramework/MKNetworkKit/MKNetworkKit-iOS/MKNetworkKit-iOS.xcodeproj"; sourceTree = "<group>"; };
 		433A8F8E167EEBEF0071B6F5 /* RSOAuthEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSOAuthEngine.h; sourceTree = "<group>"; };
 		433A8F8F167EEBEF0071B6F5 /* RSOAuthEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSOAuthEngine.m; sourceTree = "<group>"; };
+		434DEB55167EF4B400470F49 /* MKNetworkKit-iOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "MKNetworkKit-iOS.xcodeproj"; path = "ExternalFramework/MKNetworkKit/MKNetworkKit-iOS/MKNetworkKit-iOS.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,17 +107,9 @@
 		433A8F7F167EEA780071B6F5 /* ExternalFrameworks */ = {
 			isa = PBXGroup;
 			children = (
-				433A8F81167EEA8A0071B6F5 /* MKNetworkKit-iOS.xcodeproj */,
+				434DEB55167EF4B400470F49 /* MKNetworkKit-iOS.xcodeproj */,
 			);
 			name = ExternalFrameworks;
-			sourceTree = "<group>";
-		};
-		433A8F82167EEA8A0071B6F5 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				433A8F89167EEA8A0071B6F5 /* libMKNetworkKit-iOS.a */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		433A8F8D167EEBEF0071B6F5 /* RSOAuthEngine */ = {
@@ -134,6 +119,14 @@
 				433A8F8F167EEBEF0071B6F5 /* RSOAuthEngine.m */,
 			);
 			path = RSOAuthEngine;
+			sourceTree = "<group>";
+		};
+		434DEB56167EF4B400470F49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				434DEB5D167EF4B400470F49 /* libMKNetworkKit-iOS.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,7 +143,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				433A8F8C167EEB030071B6F5 /* PBXTargetDependency */,
 			);
 			name = RSOAuthEngineLib;
 			productName = RSOAuthEngineLib;
@@ -178,8 +170,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 433A8F82167EEA8A0071B6F5 /* Products */;
-					ProjectRef = 433A8F81167EEA8A0071B6F5 /* MKNetworkKit-iOS.xcodeproj */;
+					ProductGroup = 434DEB56167EF4B400470F49 /* Products */;
+					ProjectRef = 434DEB55167EF4B400470F49 /* MKNetworkKit-iOS.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -190,11 +182,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		433A8F89167EEA8A0071B6F5 /* libMKNetworkKit-iOS.a */ = {
+		434DEB5D167EF4B400470F49 /* libMKNetworkKit-iOS.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = "libMKNetworkKit-iOS.a";
-			remoteRef = 433A8F88167EEA8A0071B6F5 /* PBXContainerItemProxy */;
+			remoteRef = 434DEB5C167EF4B400470F49 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -210,14 +202,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		433A8F8C167EEB030071B6F5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "MKNetworkKit-iOS";
-			targetProxy = 433A8F8B167EEB030071B6F5 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		433A8F77167EE9E00071B6F5 /* Debug */ = {
