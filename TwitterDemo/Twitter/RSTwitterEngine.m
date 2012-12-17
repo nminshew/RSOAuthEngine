@@ -26,9 +26,8 @@
 #import "RSTwitterEngine.h"
 
 // Never share this information
-#error  Put your Consumer Key and Secret here, then remove this error
-#define TW_CONSUMER_KEY @""
-#define TW_CONSUMER_SECRET @""
+#define TW_CONSUMER_KEY @"34cWl9Nu0YHZTcNzlCJA"
+#define TW_CONSUMER_SECRET @"ZJIBvS7guIRI5vOHp6VeweleAZZR7uAe3WDsgoxsE"
 
 // This will be called after the user authorizes your app
 #define TW_CALLBACK_URL @"rstwitterengine://auth_token"

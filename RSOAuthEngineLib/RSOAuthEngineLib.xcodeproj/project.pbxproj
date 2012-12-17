@@ -1,0 +1,243 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		433A8F6F167EE9E00071B6F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 433A8F6E167EE9E00071B6F5 /* Foundation.framework */; };
+		433A8F74167EE9E00071B6F5 /* RSOAuthEngineLib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 433A8F73167EE9E00071B6F5 /* RSOAuthEngineLib.h */; };
+		433A8F76167EE9E00071B6F5 /* RSOAuthEngineLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 433A8F75167EE9E00071B6F5 /* RSOAuthEngineLib.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		433A8F69167EE9E00071B6F5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				433A8F74167EE9E00071B6F5 /* RSOAuthEngineLib.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		433A8F6B167EE9E00071B6F5 /* libRSOAuthEngineLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRSOAuthEngineLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		433A8F6E167EE9E00071B6F5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		433A8F72167EE9E00071B6F5 /* RSOAuthEngineLib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RSOAuthEngineLib-Prefix.pch"; sourceTree = "<group>"; };
+		433A8F73167EE9E00071B6F5 /* RSOAuthEngineLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSOAuthEngineLib.h; sourceTree = "<group>"; };
+		433A8F75167EE9E00071B6F5 /* RSOAuthEngineLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSOAuthEngineLib.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		433A8F68167EE9E00071B6F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				433A8F6F167EE9E00071B6F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		433A8F60167EE9E00071B6F5 = {
+			isa = PBXGroup;
+			children = (
+				433A8F70167EE9E00071B6F5 /* RSOAuthEngineLib */,
+				433A8F6D167EE9E00071B6F5 /* Frameworks */,
+				433A8F6C167EE9E00071B6F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		433A8F6C167EE9E00071B6F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				433A8F6B167EE9E00071B6F5 /* libRSOAuthEngineLib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		433A8F6D167EE9E00071B6F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				433A8F6E167EE9E00071B6F5 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		433A8F70167EE9E00071B6F5 /* RSOAuthEngineLib */ = {
+			isa = PBXGroup;
+			children = (
+				433A8F73167EE9E00071B6F5 /* RSOAuthEngineLib.h */,
+				433A8F75167EE9E00071B6F5 /* RSOAuthEngineLib.m */,
+				433A8F71167EE9E00071B6F5 /* Supporting Files */,
+			);
+			path = RSOAuthEngineLib;
+			sourceTree = "<group>";
+		};
+		433A8F71167EE9E00071B6F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				433A8F72167EE9E00071B6F5 /* RSOAuthEngineLib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		433A8F6A167EE9E00071B6F5 /* RSOAuthEngineLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 433A8F79167EE9E00071B6F5 /* Build configuration list for PBXNativeTarget "RSOAuthEngineLib" */;
+			buildPhases = (
+				433A8F67167EE9E00071B6F5 /* Sources */,
+				433A8F68167EE9E00071B6F5 /* Frameworks */,
+				433A8F69167EE9E00071B6F5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSOAuthEngineLib;
+			productName = RSOAuthEngineLib;
+			productReference = 433A8F6B167EE9E00071B6F5 /* libRSOAuthEngineLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		433A8F62167EE9E00071B6F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Squarezyte Consulting LLC";
+			};
+			buildConfigurationList = 433A8F65167EE9E00071B6F5 /* Build configuration list for PBXProject "RSOAuthEngineLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 433A8F60167EE9E00071B6F5;
+			productRefGroup = 433A8F6C167EE9E00071B6F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				433A8F6A167EE9E00071B6F5 /* RSOAuthEngineLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		433A8F67167EE9E00071B6F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				433A8F76167EE9E00071B6F5 /* RSOAuthEngineLib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		433A8F77167EE9E00071B6F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		433A8F78167EE9E00071B6F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		433A8F7A167EE9E00071B6F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/RSOAuthEngineLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RSOAuthEngineLib/RSOAuthEngineLib-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		433A8F7B167EE9E00071B6F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/RSOAuthEngineLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RSOAuthEngineLib/RSOAuthEngineLib-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		433A8F65167EE9E00071B6F5 /* Build configuration list for PBXProject "RSOAuthEngineLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				433A8F77167EE9E00071B6F5 /* Debug */,
+				433A8F78167EE9E00071B6F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		433A8F79167EE9E00071B6F5 /* Build configuration list for PBXNativeTarget "RSOAuthEngineLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				433A8F7A167EE9E00071B6F5 /* Debug */,
+				433A8F7B167EE9E00071B6F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 433A8F62167EE9E00071B6F5 /* Project object */;
+}

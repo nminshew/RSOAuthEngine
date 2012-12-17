@@ -1,3 +1,6 @@
 [submodule "MKNetworkKit"]
 	path = MKNetworkKit
 	url = git://github.com/MugunthKumar/MKNetworkKit.git
+[submodule "ExternalFramework/MKNetworkKit"]
+	path = ExternalFramework/MKNetworkKit
+	url = https://github.com/MugunthKumar/MKNetworkKit.git
